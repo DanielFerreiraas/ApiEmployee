@@ -46,10 +46,6 @@ namespace PrimeiraApi.Controllers
         [HttpGet]
         public IActionResult Get(int pageNumber, int pageQuantity)
         {
-            _logger.Log(LogLevel.Error, "Ocorreu um erro!");
-
-            throw new Exception("Erro na aplicação");
-
             var employees = _employeeRepository.GetAll(pageNumber, pageQuantity);
 
             _logger.LogInformation("Requisição bem sucedida!!");

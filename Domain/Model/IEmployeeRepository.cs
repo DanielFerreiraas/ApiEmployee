@@ -1,10 +1,12 @@
-﻿namespace PrimeiraApi.Domain.Model
+﻿using PrimeiraApi.Domain.DTOs;
+
+namespace PrimeiraApi.Domain.Model
 {
     public interface IEmployeeRepository
     {
         void Add(Employee employee);
 
-        List<Employee> GetAll(int pageNumber, int pageQuantity);
+        List<EmployeeDTO> GetAll(int pageNumber, int pageQuantity);
 
         Employee? GetById(int id);
     }

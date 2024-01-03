@@ -1,4 +1,5 @@
-﻿using PrimeiraApi.Domain.Model;
+﻿using PrimeiraApi.Domain.DTOs;
+using PrimeiraApi.Domain.Model;
 
 namespace PrimeiraApi.Infrastructure.Repositories
 {
@@ -11,9 +12,17 @@ namespace PrimeiraApi.Infrastructure.Repositories
             _context.SaveChanges();
         }
 
-        public List<Employee> GetAll(int pageNumber, int pageQuantity)
+        public List<EmployeeDTO> GetAll(int pageNumber, int pageQuantity)
         {
-            return _context.Employees.Skip(pageNumber * pageQuantity).Take(pageQuantity).ToList();
+            return _context.Employees.Skip(pageNumber * pageQuantity)
+                .Take(pageQuantity)
+                .Select(b =>
+                new EmployeeDTO()
+                {
+                    Id = b.id,
+                    NameEmployee = b.name,
+                    photo = b.photo
+                }).ToList();
         }
 
         public Employee? GetById(int id)

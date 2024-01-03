@@ -12,7 +12,7 @@ namespace PrimeiraApi.Controllers
         {
             if (username == "daniel" && password == "123456")
             {
-                var token = TokenService.GenerateToken(new Model.Employee());
+                var token = TokenService.GenerateToken(new Domain.Model.Employee());
                 return Ok(token);
             }
 
