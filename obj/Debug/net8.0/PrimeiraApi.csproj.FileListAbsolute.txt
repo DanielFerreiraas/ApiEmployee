@@ -35,3 +35,13 @@ C:\.net\PrimeiraApi\PrimeiraApi\obj\Debug\net8.0\refint\PrimeiraApi.dll
 C:\.net\PrimeiraApi\PrimeiraApi\obj\Debug\net8.0\PrimeiraApi.pdb
 C:\.net\PrimeiraApi\PrimeiraApi\obj\Debug\net8.0\PrimeiraApi.genruntimeconfig.cache
 C:\.net\PrimeiraApi\PrimeiraApi\obj\Debug\net8.0\ref\PrimeiraApi.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\.net\PrimeiraApi\PrimeiraApi\obj\Debug\net8.0\PrimeiraApi.sourcelink.json
