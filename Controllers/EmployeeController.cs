@@ -11,9 +11,12 @@ namespace PrimeiraApi.Controllers
     {
 
         private readonly IEmployeeRepository _employeeRepository;
-        public EmployeeController(IEmployeeRepository employeeRepository)
+        private readonly ILogger<EmployeeController> _logger;
+
+        public EmployeeController(IEmployeeRepository employeeRepository, ILogger<EmployeeController> logger)
         {
-            _employeeRepository = employeeRepository ?? throw new ArgumentNullException();
+            _employeeRepository = employeeRepository ?? throw new ArgumentNullException(nameof(employeeRepository));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         [Authorize]
@@ -43,7 +46,11 @@ namespace PrimeiraApi.Controllers
         [HttpGet]
         public IActionResult Get(int pageNumber, int pageQuantity)
         {
+            _logger.Log(LogLevel.Error, "Ocorreu um erro!");
+
             var employees = _employeeRepository.GetAll(pageNumber, pageQuantity);
+
+            _logger.LogInformation("Requisição bem sucedida!!");
             return Ok(employees);
         }
     }
