@@ -1,4 +1,4 @@
-﻿namespace PrimeiraApi.Model
+﻿namespace PrimeiraApi.Domain.Model
 {
     public interface IEmployeeRepository
     {

@@ -1,6 +1,6 @@
-﻿using PrimeiraApi.Model;
+﻿using PrimeiraApi.Domain.Model;
 
-namespace PrimeiraApi.Infrastructure
+namespace PrimeiraApi.Infrastructure.Repositories
 {
     public class EmployeeRepository : IEmployeeRepository
     {

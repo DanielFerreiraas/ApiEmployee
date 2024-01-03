@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using PrimeiraApi.Model;
-using PrimeiraApi.ViewModel;
+using PrimeiraApi.Application.ViewModel;
+using PrimeiraApi.Domain.Model;
 
 namespace PrimeiraApi.Controllers
 {
@@ -47,6 +47,8 @@ namespace PrimeiraApi.Controllers
         public IActionResult Get(int pageNumber, int pageQuantity)
         {
             _logger.Log(LogLevel.Error, "Ocorreu um erro!");
+
+            throw new Exception("Erro na aplicação");
 
             var employees = _employeeRepository.GetAll(pageNumber, pageQuantity);
 
