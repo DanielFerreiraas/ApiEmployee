@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "EOAV8/8fKori83UM7J8eKQlcxvh6uEOBM9R0Ji7DzdCn6owoiMS5H2DtJ3L3G4ZjZJ5G1GGwZXzjJIcaMQcueg==",
+  "dgSpecHash": "4y+rdxNryAHJgjS08eBZbbHyZjfsOXQBRBnQXCwAqYM6jAUGA1fLVZo19AK7w1Y9AHnrsADtTPw+FookJI0Xxg==",
   "success": true,
   "projectFilePath": "C:\\.net\\PrimeiraApi\\PrimeiraApi\\PrimeiraApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0\\microsoft.entityframeworkcore.analyzers.8.0.0.nupkg.sha512",

@@ -21,6 +21,7 @@ namespace PrimeiraApi.Infrastructure.Repositories
                 {
                     Id = b.id,
                     NameEmployee = b.name,
+                    Age = b.age,
                     photo = b.photo
                 }).ToList();
         }

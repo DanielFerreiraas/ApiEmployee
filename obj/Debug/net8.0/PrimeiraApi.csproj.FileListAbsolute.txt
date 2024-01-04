@@ -45,3 +45,5 @@ C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protoco
 C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\.net\PrimeiraApi\PrimeiraApi\obj\Debug\net8.0\PrimeiraApi.sourcelink.json
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\AutoMapper.dll
+C:\.net\PrimeiraApi\PrimeiraApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
